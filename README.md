@@ -1,5 +1,5 @@
 
-![](images/logo.png "The Wolf Studio")
+![](images/Logo_2_version.jpg "The Wolf Studio")
 
 ## About the Company
 
