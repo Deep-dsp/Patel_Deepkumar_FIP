@@ -108,19 +108,75 @@ main, .bannerBox
 	margin-top: 50px;
 }
 
-.mainAd
+.homeBody
 {
 	display: flex;
 	flex-direction: row;
-	justify-content: space-between;
-	flex-wrap: wrap;
+	justify-content: flex-start;
+	margin-top: 60px;
 }
 
-.carMod img, .mouse img
+.studio
+{
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+}
+
+.studioImage img
 {
 	width: 650px;
 	height: auto;
-	margin-top: 50px;
+}
+
+.studioPara
+{
+	max-width: 650px;
+	margin:auto;
+	margin-top: 30px;
+	background-color: #c5efff;
+	border-radius: 8px;
+}
+
+.studioPara p
+{
+	font-size: 25px;
+	text-align: justify;
+	margin-top: 25px;
+	padding: 20px;
+	line-height: 25px;
+}
+
+.mouse
+{
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-end;
+	margin-left: 200px;
+}
+
+.mouseImage img
+{
+	width: 650px;
+	height: auto;
+}
+
+.mousePara
+{
+	max-width: 650px;
+	margin:auto;
+	margin-top: 30px;
+	background-color: #c5efff;
+	border-radius: 8px;
+}
+
+.mousePara p
+{
+	font-size: 25px;
+	text-align: justify;
+	margin-top: 25px;
+	padding: 20px;
+	line-height: 25px;
 }
 
 .lineBeneath
@@ -546,5 +602,6 @@ main, .bannerBox
 	margin-left: 100px;
 	line-height: 25px;
 }
+
 /*SERVICES PAGE - Styling ends Here*/
 
