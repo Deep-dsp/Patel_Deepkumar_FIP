@@ -1,0 +1,607 @@
+@charset "UTF-8";
+
+body {
+	font-family: 'Roboto', sans-serif;
+}
+
+.hidden
+{
+	display: none;
+}
+
+/* Header Styling starts*/
+
+header, footer
+{
+	max-width: 1500px;
+	margin:auto;
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-start;
+}
+
+nav
+{
+	max-width: 1500px;
+	margin:auto;
+	margin-right: 50px;
+}
+
+ul li
+{
+	display: inline-flex;
+	flex-direction: row;
+	justify-content: flex-end;
+	margin: 15px;
+}
+
+ul li a
+{
+	text-decoration: none;
+	font-family: Arial;
+	font-weight: bold;
+	color: #000;
+	padding: 10px 20px;
+	border: 1px solid;
+	border-radius: 6px;
+	transition: 0.5s ease;
+}
+
+ul li a:hover
+{
+	background-color: #FF2A03;
+	color: white;
+}
+
+.logo img
+{
+	width: 220px;
+	height: auto;
+	margin-top: 50px;
+}
+
+/* Header Styling ends*/
+
+/* Footer Styling Starts*/
+
+.copyRight p
+{
+	font-size: 20px;
+	margin:30px;
+	color: grey;
+}
+
+.Media
+{
+	margin:20px;
+	margin-left: 800px;
+}
+
+/* Footer Styling Ends*/
+
+/*Body - HOME - Styling Starts*/
+
+.lineUp
+{
+	border-top: 1px solid grey;
+	width: 100%;
+	margin-top: 30px;
+}
+
+main, .bannerBox
+{
+	max-width: 1500px;
+	margin:auto;
+}
+
+.bannerBox
+{
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+}
+
+.Banner img
+{
+	width: 1500px;
+	height: auto;
+	margin-top: 50px;
+}
+
+.homeBody
+{
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-start;
+	margin-top: 60px;
+}
+
+.studio
+{
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+}
+
+.studioImage img
+{
+	width: 650px;
+	height: auto;
+}
+
+.studioPara
+{
+	max-width: 650px;
+	margin:auto;
+	margin-top: 30px;
+	background-color: #c5efff;
+	border-radius: 8px;
+}
+
+.studioPara p
+{
+	font-size: 25px;
+	text-align: justify;
+	margin-top: 25px;
+	padding: 20px;
+	line-height: 25px;
+}
+
+.mouse
+{
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-end;
+	margin-left: 200px;
+}
+
+.mouseImage img
+{
+	width: 650px;
+	height: auto;
+}
+
+.mousePara
+{
+	max-width: 650px;
+	margin:auto;
+	margin-top: 30px;
+	background-color: #c5efff;
+	border-radius: 8px;
+}
+
+.mousePara p
+{
+	font-size: 25px;
+	text-align: justify;
+	margin-top: 25px;
+	padding: 20px;
+	line-height: 25px;
+}
+
+.lineBeneath
+{
+	border-top: 1px solid grey;
+	width: 100%;
+	margin-top: 30px;
+}
+
+/*Body - HOME - Styling Ends*/
+
+/*About Us- Body - Styling Starts here*/
+
+.teamTitle, .tagLine
+{
+	max-width: 1500px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+.team img
+{
+	margin-top: 50px;
+}
+
+.whoarewe p, .getInTouch p
+{
+	font-size: 38px;
+	font-weight: bolder;
+	font-style: italic;
+	margin-top: 20px;
+	font-kerning: normal;
+}
+
+.underLine
+{
+	margin-top: 5px;
+	margin-left: 50px;
+}
+
+.mainBody
+{
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+}
+
+.mainBody
+{
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+}
+
+.paraAbout p
+{
+	font-size: 25px;
+	font-style: normal;
+	text-align: center;
+	margin-top: 35px;
+}
+
+.bgImage
+{
+	background-image: url('../images/office.png');
+	background-repeat: no-repeat;
+	background-position: bottom center;
+}
+
+.punchLine p
+{
+	font-size: 30px;
+	font-weight: bold;
+	font-style: italic;
+	text-align: center;
+	margin-top: 60px;
+}
+
+.underLine02
+{
+	margin: 20px;
+	text-align: center;
+}
+
+/*About Us- Body - Styling ends here*/
+
+/*Contact Us- Body - Styling starts here*/
+
+.contactTitleDesign
+{
+	max-width: 1500px;
+	margin: auto;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	margin-top: 20px;
+}
+
+.contactTitle
+{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+.underLineC
+{
+	margin-top: 10px;
+	margin-left: 45px;
+}
+
+.contactForm
+{
+	max-width: 1500px;
+	margin:auto;
+	margin-top: 100px;
+	margin-left: 250px;
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-start;
+
+	background-image: url("../images/camera.jpg");
+	background-repeat: no-repeat;
+	background-position: 75% 12%;
+}
+
+.form label
+{
+	font-size: 20px;
+	font-weight: bold;
+	font-style: italic;
+}
+
+.form input, textarea
+{
+	padding: 10px;
+	width: 450px;
+	border-radius: 10px;
+}
+
+#button
+{
+  background-color: #4CAF50;
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+  cursor: pointer;
+  padding: 10px 20px;
+  border-radius: 30px;
+  position: relative;
+  margin-top: 10px;
+  margin-left: 175px;
+}
+
+.Location
+{
+	max-width: 1500px;
+	margin: auto;
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-end;
+}
+
+.Location img
+{
+	width: 350px;
+	height: auto;
+	margin-bottom: 40px;
+}
+
+.cameraBlock
+{
+	max-width: 1500px;
+	margin:auto;
+
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-end;
+
+	/*margin-left: 1030px;*/
+}
+
+.address
+{
+	margin-top: 100px;
+	margin-bottom: 380px;
+}
+
+
+.addTitle p
+{
+	font-size: 25px;
+	font-weight: bold;
+	margin: 10px;
+}
+
+.phoneTitle p
+{
+	font-size: 25px;
+	font-weight: bold;
+	margin: 10px;
+	margin-top: 150px;
+}
+
+.addAct, .number
+{
+	font-size: 18px;
+	margin: 10px;
+}
+
+
+/*Contact Us- Body - Styling ends here*/
+
+
+
+/*SERVICES PAGE - Styling starts Here*/
+
+
+
+.productAd			/*Product Advertising*/
+{
+	max-width: 1500px;
+	margin:auto;
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-start;
+}
+
+.productPic
+{
+	margin-top: 30px;
+}
+
+.productPic img
+{
+	width: 400px;
+	height: auto;
+}
+
+.productText
+{
+	margin-top: 115px;
+	margin-left: 100px;
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-start;
+}
+
+.productTitle
+{
+	font-size: 35px;
+	font-weight: bolder;
+}
+
+.productTitle_02
+{
+	font-size: 35px;
+}
+
+.product
+{
+	max-width: 1500px;
+	margin: auto;
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	margin-top: 18px;
+}
+
+.productPara p   /*Product Advertising*/
+{
+	font-size: 22px;
+	text-align: justify;
+	margin: 50px;
+	margin-left: 100px;
+	line-height: 25px;
+}
+
+.threeDAd		/*Product Advertising*/
+{
+	max-width: 1500px;
+	margin:auto;
+	margin-top: 50px;
+	display: flex;
+	flex-direction: row-reverse;
+	justify-content: flex-start;
+}
+
+.barrelPic
+{
+	margin-top: 30px;
+}
+
+.barrelPic img    
+{
+	width: 400px;
+	height: auto;
+}
+
+.barrelText
+{
+	margin-top: 115px;
+	margin-right: 100px;
+}
+
+.barrelText img 
+{
+	width: 800px;
+	height: auto;
+}
+
+
+.barraleText
+{
+	margin-top: 115px;
+	margin-right: 100px;
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-end;
+}
+
+.barraleTitle
+{
+	font-size: 35px;
+	font-weight: bolder;
+}
+
+.barraleTitle_02
+{
+	font-size: 35px;
+}
+
+.barrale
+{
+	max-width: 1500px;
+	margin: auto;
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	margin-top: 18px;
+}
+
+.threeDPara p   /*3D Advertising*/
+{
+	font-size: 22px;
+	text-align: right;
+	margin: 50px;
+	margin-right: 100px;
+	line-height: 25px;
+}
+
+
+
+.chromaAd
+{
+	max-width: 1500px;
+	margin:auto;
+	margin-top: 50px;
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-start;
+}
+
+.chromaPic
+{
+	margin-top: 30px;
+}
+
+.chromaPic img
+{
+	width: 400px;
+	height: auto;
+}
+
+.chromaText
+{
+	margin-top: 115px;
+	margin-left: 100px;
+}
+
+.chromaText img
+{
+	width: 800px;
+	height: auto;
+}
+
+.chromaText
+{
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-start;
+	margin-right: 650px;
+	margin-top: 100px;
+}
+
+.chromaTitle
+{
+	font-size: 35px;
+	font-weight: bolder;
+}
+
+.chromaTitle_02
+{
+	font-size: 35px;
+}
+
+.chroma
+{
+	max-width: 1500px;
+	margin: auto;
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	margin-top: 18px;
+}
+
+.chromaPara p   /*Product Advertising*/
+{
+	font-size: 22px;
+	text-align: justify;
+	margin: 50px;
+	margin-left: 100px;
+	line-height: 25px;
+}
+
+/*SERVICES PAGE - Styling ends Here*/
+
